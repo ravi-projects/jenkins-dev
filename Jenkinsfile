@@ -30,7 +30,8 @@ pipeline {
 		
 		stage('Deploy')  {
 			steps {
-				bat "mvn deploy"
+				bat echo 'deploy the application'
+				//bat "mvn deploy"
 			}
 		}
     }
