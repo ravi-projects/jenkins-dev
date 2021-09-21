@@ -10,6 +10,7 @@ http://localhost:2500/swagger-ui.html
 
 Underlaying server taken as Jetty in this project. If you want tomcat , comment the jetty dependency and remove tomcat exclusion tag from pom xml file.
 
+
 # @ConfigurationProperties changes are added
 Refer the changes in below files
 EmployeeResource, ApplicationProperties and application yml file.
